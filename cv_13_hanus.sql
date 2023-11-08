@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Počítač: localhost:3306
--- Vytvořeno: Stř 08. lis 2023, 21:42
+-- Vytvořeno: Stř 08. lis 2023, 23:05
 -- Verze serveru: 8.0.35-0ubuntu0.23.04.1
 -- Verze PHP: 8.1.12-1ubuntu4.3
 
@@ -47,6 +47,48 @@ INSERT INTO `auta` (`id`, `nazev`, `znacka`, `barva`, `rok_vyroby`, `objem_motor
 -- --------------------------------------------------------
 
 --
+-- Struktura tabulky `filmy`
+--
+
+CREATE TABLE `filmy` (
+  `nazev` varchar(128) CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci NOT NULL,
+  `rok_vydani` int NOT NULL,
+  `delka` int NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb3;
+
+--
+-- Vypisuji data pro tabulku `filmy`
+--
+
+INSERT INTO `filmy` (`nazev`, `rok_vydani`, `delka`) VALUES
+('Avatar', 2009, 162),
+('Avatar', 2009, 162),
+('Ghost Rider', 2007, 110),
+('Zastav a Neprezijes', 2006, 93);
+
+-- --------------------------------------------------------
+
+--
+-- Struktura tabulky `herci`
+--
+
+CREATE TABLE `herci` (
+  `jmeno_a_prijmeni` varchar(128) CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci NOT NULL,
+  `pocet_filmu` int NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb3;
+
+--
+-- Vypisuji data pro tabulku `herci`
+--
+
+INSERT INTO `herci` (`jmeno_a_prijmeni`, `pocet_filmu`) VALUES
+('Jason Statham', 1),
+('Nicolas Cage', 1),
+('Samuel Henry John Worthington', 1);
+
+-- --------------------------------------------------------
+
+--
 -- Struktura tabulky `users`
 --
 
@@ -57,6 +99,23 @@ CREATE TABLE `users` (
   `created_at` datetime NOT NULL,
   `email` varchar(320) CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb3;
+
+-- --------------------------------------------------------
+
+--
+-- Struktura tabulky `zanry`
+--
+
+CREATE TABLE `zanry` (
+  `nazev` varchar(128) CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb3;
+
+--
+-- Vypisuji data pro tabulku `zanry`
+--
+
+INSERT INTO `zanry` (`nazev`) VALUES
+('horor, akcni, romanticky');
 
 --
 -- Indexy pro exportované tabulky
