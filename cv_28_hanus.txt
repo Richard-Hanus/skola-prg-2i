@@ -1,0 +1,48 @@
+PHP Framework: Referát
+Úvod
+
+PHP framework je sada nástrojů a knihoven, které usnadňují vývoj webových aplikací v jazyce PHP. Frameworky poskytují základní strukturu a funkce, na kterých může vývojář stavět, a tím zkracují dobu vývoje a snižují jeho náročnost.
+Obecné vlastnosti
+
+PHP frameworky obvykle nabízí:
+
+    Organizaci kódu: Struktura frameworku pomáhá udržovat kód organizovaný a přehledný.
+    Znovupoužitelnost: Frameworky obsahují komponenty a knihovny, které lze opakovaně použít v různých projektech.
+    Rychlejší vývoj: Díky základním funkcím a strukturám se vývojář může soustředit na specifické funkce aplikace.
+    Zvýšená bezpečnost: Frameworky implementují bezpečnostní best practices, čímž chrání aplikaci před běžnými hrozbami.
+    Testování: Mnoho frameworků usnadňuje testování kódu a odhalování chyb.
+
+Výhody
+
+    Zvýšená produktivita: Vývojáři můžou pracovat efektivněji a rychleji.
+    Snížení chyb: Frameworky zajišťují robustní a stabilní základ pro aplikaci.
+    Zjednodušení údržby: Díky struktuře a organizaci kódu je údržba aplikace snazší.
+    Rozšířitelnost: Frameworky umožňují snadné přidávání nových funkcí a rozšiřování aplikace.
+
+Nevýhody
+
+    Strmost křivky učení: Naučit se pracovat s frameworkem může být náročné.
+    Omezení flexibility: Frameworky můžou omezovat svobodu vývojáře v implementaci specifických funkcí.
+    Zvýšená složitost: Pro menší projekty může být framework zbytečně komplexní.
+
+Mezi populární PHP frameworky patří:
+
+    Laravel: Moderní a robustní framework s rozsáhlou komunitou a širokou škálou dostupných balíčků.
+    Symfony: Flexibilní a rozšiřitelný framework vhodný pro komplexní aplikace.
+    CodeIgniter: Lehký a snadno použitelný framework ideální pro menší projekty.
+    Yii: Framework s důrazem na rychlost a výkon.
+    CakePHP: Framework s robustní strukturou a MVC architekturou.
+
+Závěr
+
+PHP frameworky nabízí mnoho výhod pro vývojáře webových aplikací. Zvyšují produktivitu, snižují chybovost a usnadňují údržbu kódu. Nicméně, frameworky můžou být pro začátečníky náročné a pro menší projekty zbytečně komplexní. Výběr frameworku závisí na specifických potřebách projektu a zkušenostech vývojářů.
+Další informace
+
+    https://laravel.com/
+    https://symfony.com/
+    https://codeigniter.com/
+    https://www.yiiframework.com/
+    https://cakephp.org/
+
+Reference
+    10 Best PHP Frameworks for Web Development in 2023: https://www.sitepoint.com/best-php-frameworks/
